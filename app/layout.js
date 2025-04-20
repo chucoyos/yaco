@@ -21,14 +21,17 @@ export const metadata = {
     "Puerto",
     "Aduana",
     "Patio de contenedores",
+    "Patio de contenedores en Manzanillo, Colima",
+    "Patio de maniobras en Manzanillo, Colima",
     "Gestión de patios",
     "Transporte",
     "Logística",
     "Gestión de contenedores para puertos en México/Manzanillo",
     "Precio de software para gestión de patios",
     "Software para gestión de patios",
+    "Aplicación para patios de contenedores",
     "Cómo digitalizar un patio de contenedores",
-    
+    "Cómo gestionar un patio de contenedores",
   ],
 };
 
