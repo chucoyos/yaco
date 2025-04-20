@@ -14,6 +14,22 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Yaco YardContainers",
   description: "Gestiona tu patio de contenedores.",
+  keywords: [
+    "Yaco",
+    "Contenedores",
+    "Gestión de patios contenedores",
+    "Puerto",
+    "Aduana",
+    "Patio de contenedores",
+    "Gestión de patios",
+    "Transporte",
+    "Logística",
+    "Gestión de contenedores para puertos en México/Manzanillo",
+    "Precio de software para gestión de patios",
+    "Software para gestión de patios",
+    "Cómo digitalizar un patio de contenedores",
+    
+  ],
 };
 
 export default function RootLayout({ children }) {
