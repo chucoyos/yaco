@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -60,11 +61,9 @@ export default function Home() {
         </div>
       </main>
       <footer className="relative z-10 row-start-3 flex gap-[24px] flex-wrap items-center justify-center text-white/80">
-        <a
+        <Link
           className="flex items-center gap-2 hover:underline hover:underline-offset-4 hover:text-white"
-          href="https://wa.me/523141352209?text=Estoy%20interesado%20en%20la%20aplicación%20Yaco%20YardContainers"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#"
         >
           <Image
             aria-hidden
@@ -75,12 +74,10 @@ export default function Home() {
             className="invert"
           />
           Ver más
-        </a>
-        <a
+        </Link>
+        <Link
           className="flex items-center gap-2 hover:underline hover:underline-offset-4 hover:text-white"
-          href="https://wa.me/523141352209?text=Estoy%20interesado%20en%20la%20aplicación%20Yaco%20YardContainers"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/videos"
         >
           <Image
             aria-hidden
@@ -90,13 +87,11 @@ export default function Home() {
             height={16}
             className="invert"
           />
-          Screenshots
-        </a>
-        <a
+          Videos
+        </Link>
+        <Link
           className="flex items-center gap-2 hover:underline hover:underline-offset-4 hover:text-white"
-          href="https://wa.me/523141352209?text=Estoy%20interesado%20en%20la%20aplicación%20Yaco%20YardContainers"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#"
         >
           <Image
             aria-hidden
@@ -107,7 +102,7 @@ export default function Home() {
             className="invert"
           />
           Ir a Yaco →
-        </a>
+        </Link>
       </footer>
     </div>
   );
