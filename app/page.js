@@ -1,6 +1,7 @@
 import Video from "./components/video";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import BenefitCard from "./components/benefitCard";
 
 export default function Home() {
   return (
@@ -19,6 +20,51 @@ export default function Home() {
   
       <main className="relative z-10 flex flex-col gap-[32px] row-start-2 items-center sm:items-start text-white">
         <Header />
+
+        <section className="py-16 bg-gray-50 dark:bg-gray-900">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center mb-12">
+              Beneficios de Gestionar tu Patio con <span className="text-blue-600">Yaco YardContainers</span>
+            </h2>
+
+            <div className="grid md:grid-cols-3 gap-8">
+
+              <BenefitCard
+                icon="🚀"
+                title="Optimización Operativa"
+                benefits={[
+                  "Control de movimientos en tiempo real",
+                  "Reducción de tiempos de espera",
+                  "Minimización de errores humanos"
+                ]}
+                className="bg-gradient-to-br from-blue-50 to-white dark:from-gray-900 dark:to-gray-600"
+              />
+
+              <BenefitCard
+                icon="📱"
+                title="Tecnología Integrada"
+                benefits={[
+                  "Generación de EIR con QR",
+                  "Notificaciones en tiempo real",
+                  "Acceso remoto 24/7"
+                ]}
+                className="border-2 border-blue-500"
+              />
+
+              <BenefitCard
+                icon="📊"
+                title="Análisis de Datos"
+                benefits={[
+                  "Informes detallados",
+                  "Toma de decisiones basada en datos",
+                  "Mejora continua"
+                ]}
+                className="bg-gradient-to-br from-blue-50 to-white dark:from-gray-600 dark:to-gray-900"
+              />
+
+            </div>
+          </div>
+        </section>
 
         {/* New Video Grid Section */}
         <section className="relative z-10 w-full max-w-6xl row-start-3 px-4 sm:px-0" id="videos">
