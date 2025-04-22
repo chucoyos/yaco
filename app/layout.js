@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Yaco YardContainers",
+  title: "Gestión de Patios de Contenedores | Yaco YardContainers",
   description: "Gestiona tu patio de contenedores.",
   keywords: [
     "Yaco",
@@ -29,7 +29,7 @@ export const metadata = {
     "Gestión de contenedores para puertos en México/Manzanillo",
     "Precio de software para gestión de patios",
     "Software para gestión de patios",
-    "Aplicación para patios de contenedores",
+    "Software para patios de contenedores",
     "Cómo digitalizar un patio de contenedores",
     "Cómo gestionar un patio de contenedores",
   ],
