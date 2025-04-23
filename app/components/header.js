@@ -10,7 +10,7 @@ export default function Header() {
         <h2 className="text-2xl sm:text-3xl font-semibold tracking-[-.01em] text-center sm:text-left">
           Gestiona tu patio de contenedores.
         </h2>
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)] text-white/90">
+        <ol className="list-inside list-decimal text-lg text-left font-[family-name:var(--font-geist-mono)] text-white/90">
           <li className="tracking-[-.01em]">
             Asigna y controla la ubicación de cada contenedor.
           </li>
@@ -60,7 +60,7 @@ export default function Header() {
         videoId="6u6uXpFyyys" // Replace with your YouTube video ID
         title="Demo de Yaco YardContainers"
         description="Vea cómo funciona nuestro sistema en 2 minutos"
-        className="mx-auto md:mr-2 md:h-64"
+        className="mx-auto lg:mr-2 lg:h-64"
       />
     </section>
   );
