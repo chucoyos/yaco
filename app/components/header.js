@@ -1,7 +1,10 @@
+import Video from "./video";
 export default function Header() {
   return (
-    <section className="flex flex-col gap-8">
-      <h1 className="text-4xl sm:text-5xl font-bold tracking-[-.01em] text-center sm:text-left">
+    <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-content-between w-full">
+      {/* Left Column - Text Content */}
+      <div className="flex flex-col gap-8">
+        <h1 className="text-4xl sm:text-5xl font-bold tracking-[-.01em] text-center sm:text-left">
           Yaco YardContainers
         </h1>
         <h2 className="text-2xl sm:text-3xl font-semibold tracking-[-.01em] text-center sm:text-left">
@@ -29,6 +32,7 @@ export default function Header() {
           <li className="tracking-[-.01em]">
             Exporta reportes a Excel y mucho más.
           </li>
+          {/* ... other list items ... */}
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
@@ -49,6 +53,15 @@ export default function Header() {
             Información
           </a>
         </div>
+      </div>
+
+      {/* Right Column - Video Card */}
+      <Video
+        videoId="6u6uXpFyyys" // Replace with your YouTube video ID
+        title="Demo de Yaco YardContainers"
+        description="Vea cómo funciona nuestro sistema en 2 minutos"
+        className="mx-auto md:mr-2 md:h-64"
+      />
     </section>
   );
 }
