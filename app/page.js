@@ -2,6 +2,7 @@ import Video from "./components/video";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import BenefitCard from "./components/benefitCard";
+import ContactSection from "./components/contactSection";
 
 export default function Home() {
   return (
@@ -92,7 +93,8 @@ export default function Home() {
             />
           </div>
         </section>
-
+      
+        <ContactSection />
       </main>
       <Footer />
     </div>
