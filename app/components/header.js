@@ -57,9 +57,9 @@ export default function Header() {
 
       {/* Right Column - Video Card */}
       <Video
-        videoId="6u6uXpFyyys" // Replace with your YouTube video ID
-        title="Demo de Yaco YardContainers"
-        description="Vea cómo funciona nuestro sistema en 2 minutos"
+        videoId="EymSN-R2HsQ" // Replace with your YouTube video ID
+        title="Yaco YardContainers"
+        description="La mejor manera de gestionar tu patio"
         className="mx-auto lg:mr-2 lg:h-64"
       />
     </section>
