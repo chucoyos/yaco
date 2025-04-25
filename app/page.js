@@ -38,7 +38,7 @@ export default function Home() {
                   "Reducción de tiempos de espera",
                   "Minimización de errores humanos"
                 ]}
-                className="bg-gradient-to-br from-blue-50 to-white dark:from-gray-900 dark:to-gray-600"
+                className="bg-gradient-to-br from-gray-900 to-gray-600"
               />
 
               <BenefitCard
@@ -60,7 +60,7 @@ export default function Home() {
                   "Toma de decisiones basada en datos",
                   "Mejora continua"
                 ]}
-                className="bg-gradient-to-br from-blue-50 to-white dark:from-gray-600 dark:to-gray-900"
+                className="bg-gradient-to-br from-gray-600 to-gray-900"
               />
 
             </div>
