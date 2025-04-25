@@ -5,7 +5,7 @@ export default function BenefitCard({
   className = "" // Additional CSS classes
 }) {
   return (
-    <div className={`bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg ${className}`}>
+    <div className={`bg-gray-800 p-6 rounded-lg shadow-lg ${className}`}>
       <h3 className="text-xl font-semibold mb-3">
         <span className="mr-2">{icon}</span>
         {title}
