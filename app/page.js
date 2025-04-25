@@ -22,7 +22,7 @@ export default function Home() {
       <main className="relative z-10 flex flex-col gap-[32px] row-start-2 items-center sm:items-start text-white">
         <Header />
 
-        <section className="py-16 bg-gray-50 dark:bg-gray-900">
+        <section className="py-16 bg-gray-900">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">
               Beneficios de Gestionar tu Patio con <span className="text-blue-600">Yaco YardContainers</span>
